@@ -14,7 +14,7 @@ You may assume no duplicates in the array.
 1 <= B <= 109
 
 */
-
+//yeah this code works!!! Google Collections.binarySearch() for more info
 public class Solution {
     public int searchInsert(ArrayList<Integer> a, int b) {
         int in = Collections.binarySearch(a,b);
